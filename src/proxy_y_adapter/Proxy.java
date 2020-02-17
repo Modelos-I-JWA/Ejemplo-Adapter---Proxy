@@ -13,11 +13,8 @@ public class Proxy implements ObjetoAbstracto{
 
     @Override
     public String hacerAlgo() {
-       ObjetoReal obj=new ObjetoReal();
-       return obj.hacerAlgo();
+        ObjetoAbstracto obj = new ObjetoReal();
+        return obj.hacerAlgo();
     }
-    public String hacerOtraCosa(){
-        OtroObjeto otro=new OtroObjeto();
-        return otro.adapter();
-    }
+   
 }

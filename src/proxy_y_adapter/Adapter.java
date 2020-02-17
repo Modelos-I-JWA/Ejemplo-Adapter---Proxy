@@ -7,10 +7,13 @@ package proxy_y_adapter;
 
 /**
  *
- * @author famil
+ * @author estudiantes
  */
-public class OtroObjeto {
-    public String HacerOtraCosa(){
-        return "Otro Objeto";
+public class Adapter implements ObjetoAbstracto{
+
+    public String hacerAlgo() {
+        OtroObjeto obj = new OtroObjeto();
+        return obj.HacerOtraCosa();
     }
+    
 }

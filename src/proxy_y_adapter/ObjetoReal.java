@@ -11,8 +11,7 @@ package proxy_y_adapter;
  */
 public class ObjetoReal implements ObjetoAbstracto{
 
-    @Override
     public String hacerAlgo() {
-    return "Objeto real"; 
+        return "Objeto real";
     }
 }

@@ -11,4 +11,5 @@ package proxy_y_adapter;
  */
 public interface ObjetoAbstracto {
     public String hacerAlgo();
+    
 }

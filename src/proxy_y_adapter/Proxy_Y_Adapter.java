@@ -14,9 +14,10 @@ public class Proxy_Y_Adapter {
  
     public static void main(String[] args) {
         System.out.println("Programa proxy y adapter");
-        Proxy proxy=new Proxy();
+        ObjetoAbstracto proxy=new Proxy();
         System.out.println(proxy.hacerAlgo());
-        System.out.println(proxy.hacerOtraCosa());
+        proxy = new Adapter();
+        System.out.println(proxy.hacerAlgo());
     }
     
 }
